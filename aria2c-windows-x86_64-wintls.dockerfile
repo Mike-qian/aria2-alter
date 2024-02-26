@@ -30,7 +30,7 @@ RUN apt-get install -y --no-install-recommends \
 
 ENV URL_libssh2  "https://www.libssh2.org/download/libssh2-1.11.0.tar.gz"
 ENV URL_c_ares   "https://c-ares.org/download/c-ares-1.19.1.tar.gz"
-ENV URL_zlib     "https://www.zlib.net/current/zlib.tar.gz"
+ENV URL_zlib     "https://www.zlib.net/zlib-1.3.1.tar.gz"
 ENV URL_sqlite3  "https://www.sqlite.org/2023/sqlite-autoconf-3430100.tar.gz"
 ENV URL_openssl  "https://www.openssl.org/source/openssl-1.1.1w.tar.gz"
 ENV URL_expat    "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.bz2"

@@ -29,11 +29,11 @@ RUN apt-get install -y --no-install-recommends \
     p7zip-full
 
 ENV URL_libssh2  "https://www.libssh2.org/download/libssh2-1.11.0.tar.gz"
-ENV URL_c_ares   "https://c-ares.org/download/c-ares-1.19.1.tar.gz"
-ENV URL_zlib     "https://www.zlib.net/zlib-1.3.tar.gz"
-ENV URL_sqlite3  "https://www.sqlite.org/2023/sqlite-autoconf-3430100.tar.gz"
-ENV URL_openssl  "https://www.openssl.org/source/openssl-1.1.1w.tar.gz"
-ENV URL_expat    "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.bz2"
+ENV URL_c_ares   "https://objects.githubusercontent.com/github-production-release-asset-2e65be/571708/0939f9aa-bf91-48d9-a1e7-096efa3cd291?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241013%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241013T103732Z&X-Amz-Expires=300&X-Amz-Signature=923e4d85626d95b51cc4ab734f37fd20083848dc56e23c2a1c4a79b2641b40fa&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dc-ares-1.34.1.tar.gz&response-content-type=application%2Foctet-stream"
+ENV URL_zlib     "https://www.zlib.net/zlib-1.3.1.tar.gz"
+ENV URL_sqlite3  "https://www.sqlite.org/snapshot/sqlite-snapshot-202410081727.tar.gz"
+ENV URL_openssl  "https://github.com/openssl/openssl/releases/download/openssl-3.4.0-beta1/openssl-3.4.0-beta1.tar.gz"
+ENV URL_expat    "https://github.com/libexpat/libexpat/releases/download/R_2_6_3/expat-2.6.3.tar.bz2"
 ENV URL_gmp      "https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz"
 
 ENV DIR_libssh2  "/build/libssh2"

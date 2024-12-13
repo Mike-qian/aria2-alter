@@ -28,12 +28,12 @@ RUN apt-get install -y --no-install-recommends \
     ca-certificates \
     p7zip-full
 
-ENV URL_libssh2  "https://www.libssh2.org/download/libssh2-1.11.0.tar.gz"
-ENV URL_c_ares   "https://github.com/c-ares/c-ares/releases/download/v1.34.1/c-ares-1.34.1.tar.gz"
+ENV URL_libssh2  "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz"
+ENV URL_c_ares   "https://github.com/c-ares/c-ares/releases/download/v1.34.3/c-ares-1.34.3.tar.gz"
 ENV URL_zlib     "https://www.zlib.net/zlib-1.3.1.tar.gz"
 ENV URL_sqlite3  "https://www.sqlite.org/snapshot/sqlite-snapshot-202410081727.tar.gz"
-ENV URL_openssl  "https://github.com/openssl/openssl/releases/download/openssl-3.4.0-beta1/openssl-3.4.0-beta1.tar.gz"
-ENV URL_expat    "https://github.com/libexpat/libexpat/releases/download/R_2_6_3/expat-2.6.3.tar.bz2"
+ENV URL_openssl  "https://github.com/openssl/openssl/releases/download/openssl-3.4.0/openssl-3.4.0.tar.gz"
+ENV URL_expat    "https://github.com/libexpat/libexpat/releases/download/R_2_6_4/expat-2.6.4.tar.bz2"
 ENV URL_gmp      "https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz"
 
 ENV DIR_libssh2  "/build/libssh2"
